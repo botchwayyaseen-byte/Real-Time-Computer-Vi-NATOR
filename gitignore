@@ -1,0 +1,13 @@
+# Virtual environment (never upload this, it is hundreds of MB)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Model weights are downloaded automatically on first run
+*.pt
+
+# Local recordings and outputs
+*.csv
+*.mp4
+*.wav
